@@ -8,7 +8,7 @@ document.querySelector('#tip-form').onchange = function(){
     var tipValue = bill * (tip/100)
     var finalBill = bill + tipValue
 console.log(finalBill)
-var tipAmount = document.queryCommandIndeterm.Selector('#tipAmount')
+var tipAmount = document.querySelector('#tipAmount')
 var totalBillWithTip = document.querySelector('#totalBillWithTip')
 
 tipAmount.value = tipValue.toFixed(2);
