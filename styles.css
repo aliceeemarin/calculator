@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+font
+
+#results {
+    display:none;
+}
+
+body {
+    background: linear-gradient(#e66465, #9198e5);
+    padding: 15rem 40rem 15rem 40rem;
+    font-family: "Helvetica", 'Trebuchet MS', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    border-radius: 1rem;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 5rem;
+    color: white;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+}
+
+h5 {
+    font-size: 2rem;
+    color: white;
+}
+
+#tipAmount,
+#totalBillWithTip {
+    border-style: solid;
+    border-radius: .2rem;
+
+}
+
+.input-group-addon {
+    line-height: .5rem;
+}
+
+#billTotal,
+#tipAmount,
+#totalBillWithTip {
+    font-size: 1.1rem;
+    font-style: bold;
+    font-family: "Helvetica", 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    border-radius: 1rem;
+}
+
+#tipAmount {
+    color:rgb(151, 1, 1);
+}
+
+#totalBillWithTip {
+    color: rgb(0, 67, 112)
+}
+
+
+/* Slider controls */
+
+#tipInput {
+    width: 40%;   
+    padding-left: .3rem;
+    height: 1.3rem;
+}
+
+.form-control {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+    border-radius: 1rem;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    height: 1.2rem;
+}
+
+.form-control:hover {
+    opacity: 1;
+}
+
+.form-control::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #e66465;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.form-control::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
