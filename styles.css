@@ -75,10 +75,11 @@ h5 {
 /* Slider controls */
 
 #tipInput { /*Barra*/ 
-    height: 1.3rem;
+    height: 1.4rem;
     width: 40%;  
     min-width: 100%; /*Phones*/
     padding-left: .3rem; /*ball*/
+    border-radius: 1rem;
 }
 
 .form-control { /*Form*/
