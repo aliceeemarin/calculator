@@ -8,9 +8,10 @@ font
 
 body {
     background: linear-gradient(#e66465, #9198e5);
-    padding: 15rem 40rem 15rem 40rem;
+/*    padding: 15rem 40rem 15rem 40rem;*/
     font-family: "Helvetica", 'Trebuchet MS', sans-serif;
-    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 .container {
@@ -21,6 +22,10 @@ body {
     padding: 5rem;
     color: white;
     background-position: center;
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    margin-top: 10rem;
 }
 
 h1 {
