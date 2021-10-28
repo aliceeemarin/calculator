@@ -78,6 +78,7 @@ h5 {
     height: 1.3rem;
     width: 40%;  
     min-width: 100%; /*Phones*/
+    padding-left: .3rem; /*ball*/
 }
 
 .form-control { /*Form*/
